@@ -1,3 +1,9 @@
 # payments-api
 
-Deterministic ISO-4217 minor-unit currency rounding utility (USD, KWD, JPY, KRW, VND).
+Internal multi-currency minor-unit settlement & quantization helpers (`USD`, `EUR`, `JPY`, `KRW`, `VND`, `KWD`, `BHD`, `OMR`).
+
+## Local test suite
+
+```bash
+pytest -v --tb=short
+```
